@@ -1,0 +1,37 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.header h1,
+.header p {
+    margin: 0;
+}
+
+input.form-control {
+    max-width: 400px;
+}
+
+.accordion-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-collapse {
+    background-color: #222;
+}
+
+
